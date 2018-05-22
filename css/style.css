@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 100;
+}
+
+/*sekcje - ogolne*/
+
+section {
+    padding: 40px 60px;
+}
+
+section .section-text {
+    text-align: center;
+}
+
+section .section-text h3 {
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+section .section-text p {
+    margin-bottom: 40px;
+}
+
+/*nawigacja*/
+
+nav.nav-myclass {
+    background-color: white;
+    justify-content: flex-end;
+}
+
+nav.nav-myclass .collapse-myclass {
+    justify-content: flex-end;
+}
+
+nav#main-nav a {
+    color: #1ac056;
+}
+
+/*header*/
+
+#main-header {
+    background: url(../img/img/header-background.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-header .header-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#main-header .header-text h1 {
+    font-size: 70px;
+    font-weight: 100;
+}
+
+#main-header .header-text h1 span,
+h3 span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+#main-header .header-text h2 {
+    font-weight: 100;
+}
+
+/*sekcja 'o mnie'*/
+
+#about-me {
+    background-color: #f9fcfe;
+}
+
+#about-me .section-img,
+#skills .skills-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#about-me img {
+    width: 300px;
+    height: 350px;
+    border: 10px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*sekcja 'moje portfolio'    */
+
+#portfolio #background-1 {
+    background: url(../img/img/portfolio1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#portfolio #background-2 {
+    background: url(../img/img/portfolio2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#portfolio #background-3 {
+    background: url(../img/img/portfolio3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#portfolio .mask {
+    background-color: rgba(33, 59, 80, 0.6);
+    height: 350px;
+    opacity: 0;
+    transition: all 0.4s linear;
+    padding: 10px;
+}
+
+#portfolio .mask:hover {
+    opacity: 1;
+}
+
+#portfolio .mask .content {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+#portfolio .mask .content p {
+    text-align: center;
+    padding: 0 5px;
+}
+
+#portfolio .mask .content i {
+    color: white;
+}
+
+/*sekcja kontaktowa*/
+
+#contact {
+    background-color: #213b50;
+    color: white;
+}
+
+#contact h3 {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#contact address a {
+    color: #1ac056;
+}
+
+#contact .media-icons a.media-links {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    transition: all 0.4s linear;
+}
+
+#contact .media-icons a.media-links:hover {
+    color: #213b50;
+    background-color: white;
+}
+
+#contact form {
+    padding-top: 15px;
+}
+
+#contact form .form-group-myclass {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact form .form-input-myclass {
+    background-color: #374e61;
+    color: white;
+    border: none;
+    margin: 5px 0;
+}
+
+#contact .form-box button {
+    background-color: #1ac056;
+    border: 2px solid white;
+    text-transform: uppercase;
+    position: absolute;
+    right: 15px;
+    transition: all 0.4s linear;
+}
+
+#contact .form-box button:hover {
+    color: #1ac056;
+    background-color: white;
+    border: 2px solid #1ac056;
+}
+
+/*footer*/
+
+#footer {
+    background-color: #132330;
+    padding: 10px 60px;
+    margin: 0;
+}
+
+#footer p {
+    color: white;
+    margin: 0;
+}
